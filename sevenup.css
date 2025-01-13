@@ -1,0 +1,157 @@
+body {
+  margin: 0px;
+}
+
+.header {
+  
+  width: 100%;
+  height: 132px;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  background-color: #f79a83;
+  position: fixed;
+  top: 0;
+  border-bottom:  solid 0.5px;
+  border-color: white;
+}
+.logo {
+  height: 89px;
+  width: 96px;
+  padding-left: 25px;
+}
+.header a {
+  color: white;
+  text-decoration: none;
+  padding-right: 15px;
+  font-size: large;
+  font-family: sans-serif;
+}
+.text {
+  margin-left: 700px;
+}
+.socialmedia-icons img {
+  width: 30px;
+  height: 30px;
+}
+.socialmedia-icons {
+  margin-left: 30px;
+}
+
+.first-image {
+    margin-top: 100px;
+  background-image: url(https://www.7up.com/images/simple-7up/image3.png);
+  border-top: solid 0.5px;
+  border-color: white;
+  width: 100%;
+  height: 700px;
+  background-size: cover;
+}
+.first-writting {
+  color: white;
+  font-family: "korolev-rounded";
+  font-size: 5.5vw;
+  font-weight: 800;
+  line-height: 74px;
+  margin-bottom: 32px;
+  margin-top: 273px;
+  margin-left: 89px;
+}
+.first-button {
+  background-color: transparent;
+  border-radius: 20px;
+  margin-left: 101px;
+  border-color: white;
+  color: white;
+  font-size: 18px;
+  padding: 10px 29px;
+}
+.second-image {
+    
+  background-image: url(https://www.7up.com/images/simple-7up/image2.png);
+  width: 100%;
+  height: 700px;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.pebble {
+  /* width: 649px; */
+  /* height: 216px; */
+
+  background-color: red;
+
+  border-radius: 200px;
+}
+
+.top-text {
+  font-size: 32px;
+  font-family: sans-serif;
+  color: white;
+}
+.below-text {
+  color: white;
+
+  font-family: sans-serif;
+  font-size: 17px;
+}
+.button {
+  height: 36px;
+  width: 189px;
+  background-color: transparent;
+  border-radius: 20px;
+  margin-left: 43px;
+  border: 1px solid white;
+  color: white;
+  font-size: 20px;
+}
+.third-image {
+  background-image: url(https://www.7up.com/images/simple-7up/image1.png);
+  width: 100%;
+  height: 500px;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.third-writting {
+  color: white;
+  width: 31%;
+  height: 30%;
+  margin-top: 283px;
+  margin-left: 385px;
+  background-color: rgba(10, 91, 43, 0.8);
+  padding-top: 6px;
+  padding-left: 185px;
+  border-radius: 200px;
+}
+.text3-writting {
+  color: white;
+  margin-bottom: 20px;
+  font-family: "korolev";
+  font-size: 17px;
+  line-height: 2.8vh;
+  padding: 6px 25px;
+}
+
+.wrapper {
+  width: 649px;
+  height: 216px;
+  background-color: rgba(10, 91, 43, 0.8);
+ 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+align-items: center;
+  border-radius: 200px;
+}
+.textcontent {
+
+  display: inline;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+align-items: center;
+}
+
